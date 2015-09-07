@@ -1,0 +1,16 @@
+Recent Changes Made to Spine Framework
+-------------------------------------------------------------------
+
+
+# 11/06/08 Amended AbstractBusinessDelegate to close previous resources after a successful re initialization of a different DataProxy
+# 07/06/08 Amended AbstractBusinessDelegate to possess the ability to locate and initialize any other DataAccessObject than the present DAO associated with it.
+
+# 30/05/08 Added Service Locators viz DataSourceServiceLocator and PluginServiceLocator objects used to locate references to plugins and Datasources registered with the framework.
+
+# 27/05/08 Re established ConfigurationEngine to serve as Plugin engine
+
+# Amended configuration xml files to use a more user friendly means of adding user defined properties using the property tag
+
+# Created default DataSourceBuilder which uses user defined properties to locate accessors defined by database drivers to initialize a suitable dataSource
+
+# Many improvements to the product's quality, reliability, ease of use, and performance. See "Recent Changes" below for details.

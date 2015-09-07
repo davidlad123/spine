@@ -1,0 +1,54 @@
+===========================================================================================================
+Spine is an extensible java application framework for creating easily transposable applications which can easily be ported from one view model to another.
+
+Spine provides a means of using inversion of control (dependency injection) techniques to create an application from the presentation tier to the nth tier by using a generic model to instantiate java classes specified in configuration along a defined process flow.
+
+========================================================================================================
+Spine makes use of several libraries which are packaged with the distribution, they are:
+
+    * Log4J libraries (packaged with distribution)
+    * Junit libraries (packaged with distribution)
+    * Apache Commons Library (packaged with distribution)
+    * Hibernate 3 Libraries (packaged with distribution)
+
+The framework also requires that you have J2SE5.0 or later installed, and if developing a Web Application, you should have J2EE1.4 packaged with your application. 
+
+
+==========================================================================================================
+Installation
+
+Please read the user guide at http://spine.zphinx.co.uk/docs/user_guide.html for full installation,configuration and documentation details.
+
+==============================================================================================================
+Release contents
+
+This release consists of the following items:
+
+        * Release notes (this file)
+        * /lib/ The libraries used by spine
+        * /resources/ The files used to drive the framework mostly xml files and associated schemas and dtds
+	* /examples/ The example files used to describe how this application framework can be used
+    
+    If you have the source distribution, this directory will be packaged with the distribution:
+		# /src/ 
+		# /test-src/
+
+Minimum System Requirements
+
+System Processor:	1GHz PROCESSOR-TYPE
+System Memory:		500MB
+Free Disk Space:	10MB
+Operating System: 	Unix,Linux,Windows 2000, Windows XP, Mac OS X, All operating systems capable of running J2SE 5
+Networking:		Internet access
+
+Required Software: 	
+
+    * J2SE 5 Libraries
+    * J2EE 1.4 Libraries (Optional)
+    * Log4J libraries (packaged with distribution)
+    * Junit libraries (packaged with distribution)
+    * Apache Commons Library (packaged with distribution)
+    * Hibernate 3 Libraries (packaged with distribution)
+
+Please read the framework overview(http://spine.zphinx.co.uk/overview.html) and the user guide (http://spine.zphinx.co.uk/docs/user_guide.html) for details on how to use and integrate spine into your application.
+================================================================================================================

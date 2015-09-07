@@ -1,0 +1,12 @@
+<<<<<<< org.eclipse.core.resources.prefs
+#Fri May 30 23:57:52 BST 2008
+=======
+#Fri Jun 13 12:01:46 BST 2008
+>>>>>>> 1.2
+eclipse.preferences.version=1
+<<<<<<< org.eclipse.core.resources.prefs
+encoding//example-src/com/zphinx/spine/examples/loader.properties=8859_1
+encoding/<project>=ISO-8859-1
+=======
+encoding//example-src/com/zphinx/spine/examples/Loader.properties=8859_1
+>>>>>>> 1.2

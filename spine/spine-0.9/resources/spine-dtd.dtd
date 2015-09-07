@@ -1,0 +1,32 @@
+<!ELEMENT builder ( #PCDATA ) >
+
+<!ELEMENT className ( #PCDATA ) >
+
+<!ELEMENT dataAccessObject ( className, proxyIndex ) >
+
+<!ELEMENT dataProxies ( dataProxy+ ) >
+
+<!ELEMENT dataProxy EMPTY >
+<!ATTLIST dataProxy index NMTOKEN #REQUIRED >
+<!ATTLIST dataProxy name NMTOKEN #REQUIRED >
+
+<!ELEMENT delegate ( subclass, dataAccessObject ) >
+
+<!ELEMENT managedObject ( objectClass, dataAccessObject, pageIndex ) >
+
+<!ELEMENT multiDelegate ( subclass, managedObject+, builder ) >
+
+<!ELEMENT objectClass ( #PCDATA ) >
+
+<!ELEMENT pageIndex ( #PCDATA ) >
+
+<!ELEMENT processor ( processorClass, delegate*, multiDelegate* ) >
+<!ATTLIST processor name NMTOKEN #REQUIRED >
+
+<!ELEMENT processorClass ( #PCDATA ) >
+
+<!ELEMENT proxyIndex ( #PCDATA ) >
+
+<!ELEMENT spine ( dataProxies, processor+ ) >
+
+<!ELEMENT subclass ( #PCDATA ) >

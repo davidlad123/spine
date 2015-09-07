@@ -1,0 +1,23 @@
+#
+#Fri May 30 23:54:43 BST 2008
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.0
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=
+configFile=/spine/hibernate3.cfg.xml
+createConfigFile=false
+addLibs2Classpath=true
+baseDaoClass=

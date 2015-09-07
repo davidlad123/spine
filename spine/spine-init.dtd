@@ -1,0 +1,30 @@
+<!ELEMENT config-start ( logFile, configFile, roleConfigFile, watchTime, dataSources, plugins ) >
+
+<!ELEMENT configFile ( #PCDATA ) >
+
+<!ELEMENT dataSource ( dataSourceBuilder, sourceClass, property+ ) >
+<!ATTLIST dataSource default NMTOKEN #REQUIRED >
+<!ATTLIST dataSource key NMTOKEN #REQUIRED >
+
+<!ELEMENT dataSourceBuilder ( #PCDATA ) >
+
+<!ELEMENT dataSources ( dataSource+ ) >
+
+<!ELEMENT logFile ( #PCDATA ) >
+
+<!ELEMENT plugin ( pluginName, property+ ) >
+<!ATTLIST plugin key NMTOKEN #REQUIRED >
+
+<!ELEMENT pluginName ( #PCDATA ) >
+
+<!ELEMENT plugins ( plugin+ ) >
+
+<!ELEMENT property EMPTY >
+<!ATTLIST property name NMTOKEN #REQUIRED >
+<!ATTLIST property value CDATA #REQUIRED >
+
+<!ELEMENT roleConfigFile ( #PCDATA ) >
+
+<!ELEMENT sourceClass ( #PCDATA ) >
+
+<!ELEMENT watchTime ( #PCDATA ) >
