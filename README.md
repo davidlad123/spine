@@ -11,7 +11,7 @@ This java api defines a process flow which is easy to adapt to your Java applica
     A pre defined multi tier architectural model.
     Dependency injection features across the application model.
     An extensible application model.
-    A transposable application model allowing client developers to swap any of the constituent parts of the application at minimal cost.
+    A transposable application model allowing client developers to swap any of the constituent parts of the application     at minimal cost.
     In built security model based on java.security api.
     A predefined object/resource security model.
     Predefined identity management objects.
@@ -21,7 +21,8 @@ This java api defines a process flow which is easy to adapt to your Java applica
     Ease of integration with any model view controller architecture.
     Integration with multiple types of data stores. 
     
-    To learn more about Spine and how it delivers the features above, you should go to the overview pages at http://spine.zphinx.co.uk/. You should also visit the user guide page for information on how to install and/or integrate spine into your application structure.
+    
+To learn more about Spine and how it delivers the features above, you should go to the overview pages at http://spine.zphinx.co.uk/. You should also visit the user guide page for information on how to install and/or integrate spine into your application structure.
 
     
     
