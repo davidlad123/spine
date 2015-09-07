@@ -1,4 +1,4 @@
-# zphinx/Spine
+# Spine
 Spine is an extensible java application framework for creating easily transposable Java/J2EE applications which can easily be ported from one view model to another.
 
 Spine provides a means of using inversion of control(IOC)/dependency injection techniques to create a multi tiered application by using a generic model to instantiate java classes specified in configuration along a defined process flow.
