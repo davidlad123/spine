@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/start
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/start/package.html
+END
+ApplicationConfigurator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/start/ApplicationConfigurator.java
+END
+SpineConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/start/SpineConfiguration.java
+END
+SpineServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/start/SpineServlet.java
+END
+DelegateConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/start/DelegateConfiguration.java
+END

@@ -1,0 +1,79 @@
+
+<html>
+  <head>
+    <title>Spine - Enterprise Application Core and Framework</title>
+	
+    <meta http-equiv="keywords" content="enterprise application core,framework,J2EE,Java Application,Swing Application,Desktop Application,Software,API,Application Framework">
+    <meta http-equiv="description" content="An enterprise application core used by J2EE clients to create application logic which can easily be integrated into existing
+    MVC frameworks and serves as an inversion of control mechanism for creating interchangable application logic">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  
+   <hr  size="1" noshade/>
+ <!-- Main Page Area -->
+  <p>Spine is an extensible java application framework  for creating easily transposable applications which can easily be ported from one view model to another.</p><p>
+  Spine provides a means of using inversion of control (dependency injection) techniques to create an application from the presentation tier to the nth tier by using a generic
+  model to instantiate java classes specified in configuration along a defined process flow.</p>
+  
+  <div><h3>Spine Framework Features</h3>
+ <p>Spine has numerous features targeted at easing the  application development process. Some of these features are listed below and form the core benefits provided by the framework.</p>
+																	<div>
+																		<ul type="square">
+
+																			<li>
+																				Extensible java application framework
+																			</li>
+																			<li>
+																				Pre defined multi tier architectural model
+																			</li>
+																			<li>
+																				Dependency injection features across application
+																				model
+																			</li>
+																			<li>
+																				Extensible application model
+																			</li>
+																			<li>
+																				Transposable application model allowing client
+																				developers to swap any of the constituent parts of
+																				the application at minimal cost
+																			</li>
+																			<li>
+																				In built security model based on java.security api
+																			</li>
+																			<li>
+																				Predefined object/resource security model
+																			</li>
+																			<li>
+																				Predefined identity management objects
+																			</li>
+																			<li>
+																				XML driven configuration files
+																			</li>
+																			<li>
+																				Generic sequential processing accross multiple data
+																				stores
+																			</li>
+																			<li>
+																				Easy integration with any model view controller
+																				architecture
+																			</li>
+																			<li>
+																				Integration with multiple types of data stores
+																				<br>
+																			</li>
+
+																		</ul>
+  </div>
+<br/><br/>
+To <a href="http://spine.zphinx.co.uk/download-manager/index.php">download</a> the framework, go to the <a href="http://spine.zphinx.co.uk/download-manager/index.php">downloads page</a>.You should also visit the application <a href="http://spine.zphinx.co.uk/overview.html">overview pages</a> and the <a href="http://spine.zphinx.co.uk/docs/user_guide.html">user guide page</a>
+ for information on how to integrate spine into your application structure. A quick place to start is the <a href="http://spine.zphinx.co.uk/docs/quick_start.html">Quick Start For Web Applications Page</a>,
+  You may leave questions and browse the <a href="http://spine.zphinx.co.uk/w-agora/?site=spine">user forum</a>,
+ an <a href="http://spine.zphinx.co.uk/faq.html">FAQ</a> page is also available for answers to common problems. <br/><br/><br/>
+ </body>
+</html>

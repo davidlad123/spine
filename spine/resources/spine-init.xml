@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config-start>
+	<logFile>resources/log4j.props</logFile>
+	<configFile>resources/spine.xml</configFile>
+	<roleConfigFile>resources/groups.xml</roleConfigFile>
+	<watchTime>6000</watchTime>
+
+	
+	<dataSources>
+		<dataSource key="Mysql" default="true">
+			<dataSourceBuilder>
+				com.zphinx.spine.start.helpers.impl.DefaultDataSourceBuilder
+			</dataSourceBuilder>
+			<sourceClass>
+				com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource
+			</sourceClass>
+			<property name="user" value="testuser" />
+			<property name="password" value="minerva" />
+			<property name="url"
+				value="jdbc:mysql://192.168.1.5:3306/spine" />
+
+			<property name="port" value="3306" />
+			<property name="databaseName" value="spine" />
+			<property name="serverName" value="lion" />
+			<property name="loginTimeout" value="15" />
+		</dataSource>
+
+		<dataSource key="default" default="false">
+			<dataSourceBuilder>
+				com.zphinx.spine.start.helpers.impl.MysqlDataSourceBuilder
+			</dataSourceBuilder>
+			<sourceClass>
+				com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource
+			</sourceClass>
+			<property name="user" value="testuser" />
+			<property name="password" value="minerva" />
+			<property name="url"
+				value="jdbc:mysql://192.168.1.5:3306/spine" />
+
+			<property name="port" value="3306" />
+			<property name="databaseName" value="spine" />
+		</dataSource>
+	</dataSources>
+
+
+	<plugins>
+		<plugin key="messagePlugin">
+			<pluginName>
+				com.zphinx.spine.plugin.MessagePlugin
+			</pluginName>
+			<property name="siteMessages"
+				value="com.zphinx.spine.resources.ResourceProperties,com.zphinx.spine.resources.UtilMessages" />
+			<property name="defaultMessageClass"
+				value="com.zphinx.spine.resources.SpineMessages" />
+							<property name="exceptionMessageClass"
+				value="com.zphinx.spine.examples.Loader" />	
+				
+		</plugin>
+
+
+	</plugins>
+
+
+</config-start>

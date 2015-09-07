@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests
+END
+AllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/AllTests.java
+END
+DisplayMessagesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/DisplayMessagesTest.java
+END
+ConfigurationProcessorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/ConfigurationProcessorTest.java
+END
+InitHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/InitHelper.java
+END
+DataResources.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/DataResources.java
+END
+ApplicationConfigurationTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/ApplicationConfigurationTest2.java
+END
+MessageExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/MessageExceptionTest.java
+END
+MultiViewConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/MultiViewConfigurationTest.java
+END
+ApplicationConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/ApplicationConfigurationTest.java
+END
+ConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/ConfigurationTest.java
+END
+ConfigReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/ConfigReaderTest.java
+END
+ConfigResourcesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/ConfigResourcesTest.java
+END
+FileProxyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/FileProxyTest.java
+END
+TestSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/TestSecurity.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions/package.html
+END
+SpineException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions/SpineException.java
+END
+SpineMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions/SpineMessageException.java
+END
+SpineRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions/SpineRuntimeException.java
+END
+SpineApplicationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions/SpineApplicationException.java
+END
+ResourceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/exceptions/ResourceException.java
+END

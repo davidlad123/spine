@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib
+END
+commons-i18n.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-i18n.jar
+END
+commons-digester-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-digester-1.8.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-collections-3.2.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-lang-2.3.jar
+END
+commons-logging-adapters-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-logging-adapters-1.1.jar
+END
+commons-logging-api-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-logging-api-1.1.jar
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/junit.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/log4j-1.2.15.jar
+END
+spine-0.91.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/spine-0.91.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/commons-logging-1.1.jar
+END
+mysql-connector-java-3.0.9-stable-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/lib/mysql-connector-java-3.0.9-stable-bin.jar
+END

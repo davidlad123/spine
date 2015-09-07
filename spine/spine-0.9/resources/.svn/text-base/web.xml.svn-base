@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<description>
+			A simple servlet to demonstrate Spine usage and examples
+		</description>
+		<display-name>Spine - Application Core and Framework</display-name>
+		<servlet-name>SpineServlet</servlet-name>
+		<servlet-class>
+			com.zphinx.spine.start.SpineServlet
+		</servlet-class>
+		<init-param>
+			<param-name>startConfigFile</param-name>
+			<param-value>spine-init.xml</param-value>
+		</init-param>
+		
+		
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SpineServlet</servlet-name>
+		<url-pattern>/servlet/SpineServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- The Welcome File List -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+
+	</welcome-file-list>
+</web-app>

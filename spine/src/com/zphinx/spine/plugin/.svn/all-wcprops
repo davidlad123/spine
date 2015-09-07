@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/plugin
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/plugin/package.html
+END
+MessagePlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/plugin/MessagePlugin.java
+END
+SpinePlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/plugin/SpinePlugin.java
+END
+AbstractSpinePlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/plugin/AbstractSpinePlugin.java
+END

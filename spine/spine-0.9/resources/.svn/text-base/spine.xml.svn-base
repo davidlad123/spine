@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--//
+	Default spine configuration XML file. Contains settings necessary to run the spine application
+	create your own settings to drive other application based activities
+	http://spine.zphinx.co.uk/docs/spine-schema.xsd
+	//-->
+
+
+<spine xsi:noNamespaceSchemaLocation="spine.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataProxies>
+		<dataProxy name="com.zphinx.spine.data.impl.FileProxy"
+			index="1" />
+		<dataProxy name="com.zphinx.spine.data.impl.DataBaseProxy"
+			index="2" />
+		
+	</dataProxies>
+
+
+	<!--// The TestProcessor:- Tests a simple processor using a FileDataProxy   //-->
+	<processor name="simpleProcessor">
+		<processorClass>
+			com.zphinx.spine.core.viewprocessors.DefaultViewProcessor
+		</processorClass>
+		<delegate>
+
+			<subclass>
+				com.zphinx.spine.examples.simpledelegate.SimpleDelegate
+			</subclass>
+			<dataAccessObject>
+				<className>
+					com.zphinx.spine.examples.dao.ExampleFileDAO
+				</className>
+				<proxyIndex>1</proxyIndex>
+			</dataAccessObject>
+		</delegate>
+
+	</processor>
+
+	<!--// The TestProcessor:- A simple processor using a DatabaseProxy  //-->
+	<processor name="SimpleProcessorData">
+		<processorClass>
+			com.zphinx.spine.core.viewprocessors.DefaultViewProcessor
+		</processorClass>
+		<delegate>
+
+			<subclass>
+				com.zphinx.spine.examples.simpledelegate.SimpleDelegate
+			</subclass>
+			<dataAccessObject>
+				<className>
+					com.zphinx.spine.examples.dao.ExampleDatabaseDAO
+				</className>
+				<proxyIndex>2</proxyIndex>
+			</dataAccessObject>
+		</delegate>
+
+	</processor>
+
+	<!--// The MultiDelegateProcessor:- An example simple processor which uses multiple delegates and multiple proxies in the order in which they are declared  //-->
+		<!-- com.zphinx.spine.examples.multipledelegates.MultiDelegateExampleDelegate1 -->
+			<!-- com.zphinx.spine.examples.multipledelegates.MultiDelegateExampleDelegate2 -->
+			<!-- com.zphinx.spine.examples.multipledelegates.MultiDelegateExampleDelegate3 -->
+	<processor name="MultiDelegateProcessor">
+		<processorClass>
+			com.zphinx.spine.core.viewprocessors.DefaultViewProcessor
+		</processorClass>
+		<delegate>
+
+			<subclass>
+		
+				com.zphinx.spine.examples.multipledelegates.LogonDelegate
+			</subclass>
+			<dataAccessObject>
+				<className>
+					com.zphinx.spine.examples.dao.LogonDAO
+				</className>
+				<proxyIndex>1</proxyIndex>
+			</dataAccessObject>
+		</delegate>
+		<delegate>
+
+			<subclass>
+			
+				com.zphinx.spine.examples.multipledelegates.InboxDelegate
+			</subclass>
+			<dataAccessObject>
+				<className>
+					com.zphinx.spine.examples.dao.InboxDAO
+				</className>
+				<proxyIndex>2</proxyIndex>
+			</dataAccessObject>
+		</delegate>
+
+<delegate>
+
+			<subclass>
+				
+				com.zphinx.spine.examples.multipledelegates.PendingJobsDelegate
+			</subclass>
+			<dataAccessObject>
+				<className>
+					com.zphinx.spine.examples.dao.PendingJobsDAO
+				</className>
+				<proxyIndex>2</proxyIndex>
+			</dataAccessObject>
+		</delegate>
+
+	</processor>
+
+
+
+
+	<!--// The MultiViewProcessor:- An example  multiview processor using different DataAccessObjects  //-->
+	<processor name="MultiViewProcessor">
+		<processorClass>
+			com.zphinx.spine.examples.multiview.ExtendedMultiViewProcessor
+		</processorClass>
+		<multiDelegate>
+
+
+			<subclass>
+				com.zphinx.spine.examples.multiview.MultiViewExampleDelegate
+			</subclass>
+
+			<managedObject>
+
+				<objectClass>
+					com.zphinx.spine.examples.beans.SpineBean1
+				</objectClass>
+
+				<dataAccessObject>
+					<className>
+						com.zphinx.spine.examples.dao.SpineBean1DAO
+					</className>
+					<proxyIndex>1</proxyIndex>
+
+				</dataAccessObject>
+				<pageIndex>1</pageIndex>
+			</managedObject>
+
+			<managedObject>
+
+				<objectClass>
+					com.zphinx.spine.examples.beans.SpineBean2
+				</objectClass>
+				<dataAccessObject>
+					<className>
+						com.zphinx.spine.examples.dao.SpineBean2DAO
+					</className>
+					<proxyIndex>2</proxyIndex>
+
+				</dataAccessObject>
+				<pageIndex>2</pageIndex>
+			</managedObject>
+
+
+			<managedObject>
+
+				<objectClass>
+					com.zphinx.spine.examples.beans.SpineBean3
+				</objectClass>
+				<dataAccessObject>
+					<className>
+						com.zphinx.spine.examples.dao.SpineBean3DAO
+					</className>
+					<proxyIndex>2</proxyIndex>
+
+				</dataAccessObject>
+				<pageIndex>3</pageIndex>
+			</managedObject>
+
+			<builder>
+				com.zphinx.spine.examples.multiview.ExampleBuilder
+			</builder>
+		</multiDelegate>
+	</processor>
+</spine>

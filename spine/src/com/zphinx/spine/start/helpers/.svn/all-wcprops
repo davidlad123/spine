@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/package.html
+END
+DataSourceBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/DataSourceBuilder.java
+END
+DataSourceServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/DataSourceServiceLocator.java
+END
+PluginServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/PluginServiceLocator.java
+END
+AbstractConfigHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/AbstractConfigHelper.java
+END

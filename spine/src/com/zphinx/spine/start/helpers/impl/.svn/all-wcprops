@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl/package.html
+END
+RoleConfigHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl/RoleConfigHelper.java
+END
+ConfigReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl/ConfigReader.java
+END
+DefaultDataSourceBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl/DefaultDataSourceBuilder.java
+END
+ConfigurationHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl/ConfigurationHelper.java
+END
+MysqlDataSourceBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/start/helpers/impl/MysqlDataSourceBuilder.java
+END

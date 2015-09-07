@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/package.html
+END
+AbstractBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/AbstractBuilder.java
+END
+AbstractBusinessDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/AbstractBusinessDelegate.java
+END

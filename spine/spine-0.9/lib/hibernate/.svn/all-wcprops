@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate
+END
+jaxen-1.1-beta-4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/jaxen-1.1-beta-4.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/jta.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/asm.jar
+END
+commons-collections-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/commons-collections-2.1.1.jar
+END
+xerces-2.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/xerces-2.6.2.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/hibernate3.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/jdbc2_0-stdext.jar
+END
+dom4j-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/dom4j-1.6.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/commons-logging-1.0.4.jar
+END
+ehcache-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/ehcache-1.1.jar
+END
+cglib-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/cglib-2.1.jar
+END
+jaas.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/jaas.jar
+END
+antlr-2.7.5H3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/antlr-2.7.5H3.jar
+END
+log4j-1.2.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/log4j-1.2.9.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/xml-apis.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19/spine/trunk/spine-0.9/lib/hibernate/asm-attrs.jar
+END

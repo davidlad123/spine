@@ -1,0 +1,227 @@
+<project name="Spine Deploy Script" default="all" basedir=".">
+
+	<property name="app.name" value="spine" />
+
+
+	<property name="app.path" value="/${app.name}" />
+	<property name="app.version" value="0.92" />
+	<property name="build.home" value="${basedir}/build" />
+	<property name="spine.distro" value="${basedir}/spine-0.9" />
+
+	<!-- <property name="distro.home" value=""/>
+		<property name="distro.home" value=""/> -->
+
+	<property name="build.home.src"
+		value="${basedir}/build/spine-0.9-src" />
+	<property name="build.home.base" value="${basedir}/build/spine-0.9" />
+	<property name="build.home.src.test" value="${build.home.src}/test"/>
+
+	<property name="build.home.src.examples"
+		value="${build.home.src}/examples" />
+	
+	<property name="build.home.base.examples"
+		value="${build.home.base}/examples" />
+
+	<property name="build.home.src.resources"
+		value="${build.home.src}/resources" />
+	<property name="build.home.base.resources"
+		value="${build.home.base}/resources" />
+
+	<property name="build.home.src.lib"
+			value="${build.home.src}/lib" />
+		
+		<property name="build.home.base.lib"
+			value="${build.home.base}/lib" />
+
+<property name="site.home.src.examples" value="/home/rogue/workspace/spineWebsite/examples"/>
+	<property name="test.home.lib" value="/home/rogue/workspace/sandbox/WEB-INF/lib"/>
+	<property name="spine.lib" value="${basedir}/lib" />
+	<property name="spine.classes" value="${basedir}/WEB-INF/classes" />
+
+	<property name="spine.distro.files" value="${basedir}/lib" />
+	<property name="spine.distro.resources"
+		value="${spine.distro}/resources" />
+
+
+	<property name="spine.src" value="${basedir}/src" />
+	<property name="spine.test.src" value="${basedir}/test-src" />
+	<property name="spine.examples.src" value="${basedir}/example-src" />
+	<property name="spine.struts.plugin"
+		value="${basedir}/struts-plugin" />
+
+
+	<!-- ==================== Clean Target ==================================== -->
+
+	<!--
+		
+		The "clean" target deletes any previous "build" and "dist" directory,
+		so that you can be ensured the application can be built from scratch.
+		
+	-->
+
+	<target name="clean"
+		description="Delete old build and dist directories">
+		<delete dir="${build.home.base}" />
+		<delete dir="${build.home.src}" />
+		<delete dir="${build.home}" />
+	</target>
+
+
+	<!-- ==================== Prepare Target ================================== -->
+
+	<!--
+		
+		The "prepare" target is used to create the "build" destination directory,
+		and copy the static contents of your web application to it.  If you need
+		to copy static files from external dependencies, you can customize the
+		contents of this task.
+		
+		Normally, this task is executed indirectly when needed.
+		
+	-->
+
+	<target name="prepare" depends="clean"
+		description="create build directories">
+
+		<!-- Create build directories as needed -->
+		<mkdir dir="${build.home}" />
+		<mkdir dir="${build.home.base}" />
+		<mkdir dir="${build.home.src}" />
+		<mkdir dir="${build.home.base.lib}" />
+		<mkdir dir="${build.home.src.lib}" />
+		<mkdir dir="${build.home.src}/src" />
+		<mkdir dir="${build.home.base.examples}" />
+		<mkdir dir="${build.home.src.examples}" />
+		<mkdir dir="${build.home.src.test}" />
+		
+		<jar jarfile="${build.home}/${app.name}-${app.version}.jar"
+			basedir="${spine.classes}" />
+		
+		<copy file="${build.home}/${app.name}-${app.version}.jar"
+					todir="${test.home.lib}" verbose="true" />
+		
+	</target>
+
+	<!--============================================================================================ -->
+	<!-- //Create  distro no source// -->
+
+	<target name="buildnosource" depends="prepare"
+		description="create distribution without sources">
+
+		<!-- Copy static content of this web application -->
+		<copy todir="${build.home.base.lib}" verbose="true">
+			<fileset dir="${spine.lib}" />
+		</copy>
+		<copy todir="${build.home.base.resources}" verbose="true">
+		<fileset dir="${spine.distro.resources}" />
+		</copy>
+		<copy todir="${build.home.base.examples}"  verbose="true">
+			<fileset dir="${spine.examples.src}" />
+		</copy>
+			<copy todir="${build.home.base}" file="${spine.distro}/index.html"/>	
+		<copy todir="${build.home.base}" file="${spine.distro}/gpl.txt"/>	
+		<copy todir="${build.home.base}" file="${spine.distro}/README"/>	
+		<copy todir="${build.home.base}" file="${spine.distro}/CHANGELOG"/>	
+		<copy todir="${build.home.base}" file="${spine.distro}/RELEASENOTES"/>	
+		<copy todir="${build.home.base}/examples" file="${spine.distro}/examples/index.html"/>	
+		
+		<copy file="${build.home}/${app.name}-${app.version}.jar"
+			todir="${build.home.base.lib}" verbose="true" />
+		
+		
+	</target>
+	<!--============================================================================================ -->
+
+	<!-- // Create  distro with source // -->
+	<target name="buildwithsource" depends="prepare"
+		description="create distribution with sources">
+		<copy todir="${build.home.src}/src"  verbose="true">
+			<fileset dir="${spine.src}" />
+			
+			
+		</copy>
+		<copy todir="${build.home.src.lib}"  verbose="true">
+			<fileset dir="${spine.lib}" />
+				
+		</copy>
+		<copy todir="${build.home.src.resources}"  verbose="true">
+			<fileset dir="${spine.distro.resources}" />
+		</copy>
+		
+		<copy todir="${build.home.src.examples}"  verbose="true">
+			<fileset dir="${spine.examples.src}" />
+		</copy>
+		<!--======================================================================= -->
+		<!--// Copy the sources to the example directory of the website//-->
+		<copy todir="${site.home.src.examples}"  verbose="true">
+			<fileset dir="${spine.examples.src}" />
+		</copy>
+		
+		<!--======================================================================= -->
+		
+		<copy todir="${build.home.src.test}"  verbose="true">
+			<fileset dir="${spine.test.src}" />
+		</copy>
+
+		<copy todir="${build.home.src}" file="${spine.distro}/index.html"/>	
+	<copy todir="${build.home.src}" file="${spine.distro}/gpl.txt"/>	
+	<copy todir="${build.home.src}" file="${spine.distro}/README"/>	
+	<copy todir="${build.home.src}" file="${spine.distro}/CHANGELOG"/>	
+	<copy todir="${build.home.src}" file="${spine.distro}/RELEASENOTES"/>	
+		<copy todir="${build.home.src}/examples" file="${spine.distro}/examples/index.html"/>				
+		<copy file="${build.home}/${app.name}-${app.version}.jar"
+			todir="${build.home.src}/lib" verbose="true" />
+	</target>
+
+
+
+	<!-- // Create jar distro // -->
+
+	<target name="buildjars" depends="buildnosource,buildwithsource"
+		description="create jar files">
+		<jar jarfile="${build.home}/${app.name}-${app.version}.zip"
+			basedir="${build.home.base}"  />
+		<jar jarfile="${build.home}/${app.name}-${app.version}-src.zip"
+			basedir="${build.home.src}"  />
+		<jar
+			jarfile="${build.home}/${app.name}-${app.version}-strutsplugin.zip"
+			basedir="${spine.struts.plugin}" />
+
+
+	</target>
+
+
+
+	<!-- // Create pdf files ... if possible // -->
+
+<!-- Creates the distribution -->
+
+	<target name="all" depends="buildjars,javadoc"
+		description="create distribution">
+
+	</target>
+
+
+	<target name="javadoc">
+		<javadoc access="package" additionalparam="-J-Xmx256m"
+			author="true"
+			classpath="/home/opt/jakarta-tomcat-4.1.27/common/lib/naming-resources.jar:lib/commons-logging-adapters-1.1.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/jndi.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/activation.jar:lib/commons-logging-1.1.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/servlet.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/jta.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/naming-factory.jar:lib/commons-digester-1.8.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/commons-pool.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/jasper-runtime.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/commons-dbcp.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/mail.jar:lib/commons-i18n.jar:lib/commons-logging-api-1.1.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/commons-collections.jar:/home/opt/jakarta-tomcat-5.5.9/common/lib/commons-logging-api.jar:lib/hibernate/hibernate3.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/mysql-connector-java-3.0.9-stable-bin.jar:lib/commons-lang-2.3.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/naming-common.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/ant.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/jdbc2_0-stdext.jar:/home/opt/jakarta-tomcat-4.1.27/common/lib/jasper-compiler.jar:lib/log4j-1.2.15.jar:lib/commons-collections-3.2.jar"
+			destdir="/home/rogue/workspace/spineWebsite/docs/javadoc/"
+			doctitle="Spine - Enterprise Application Core and Framework"
+			nodeprecated="false" nodeprecatedlist="false" noindex="false"
+			nonavbar="false" notree="false"
+			overview="/home/rogue/workspace/spine/overview.html"
+			packagenames="com.zphinx.spine.vo.dto,com.zphinx.spine.message,com.zphinx.spine.plugin,com.zphinx.spine,com.zphinx.spine.vo,com.zphinx.spine.members,com.zphinx.spine.resources,com.zphinx.spine.core.viewprocessors,com.zphinx.spine.security,com.zphinx.spine.data,com.zphinx.spine.data.impl,com.zphinx.spine.utils,com.zphinx.spine.start,com.zphinx.spine.start.helpers,com.zphinx.spine.start.helpers.impl,com.zphinx.spine.core,com.zphinx.spine.exceptions"
+			source="0.9" sourcepath="src" splitindex="true"
+			stylesheetfile="/home/rogue/workspace/Securesite/login-manager/scripts/site3f.css"
+			use="true" version="true">
+			<link href="http://java.sun.com/j2se/1.5.0/docs/api/" />
+			<link
+				href="file:/home/rogue/workspace/spineWebsite/docs/javadoc/" />
+
+		</javadoc>
+	</target>
+
+
+
+</project>

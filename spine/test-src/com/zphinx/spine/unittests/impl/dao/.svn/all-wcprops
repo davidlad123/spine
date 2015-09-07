@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao
+END
+HibernateTestDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao/HibernateTestDAO.java
+END
+DaoTestObjectData.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao/DaoTestObjectData.java
+END
+SpineBean1DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao/SpineBean1DAO.java
+END
+DaoTestObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao/DaoTestObject.java
+END
+SpineBean2DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao/SpineBean2DAO.java
+END
+SpineBean3DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/test-src/com/zphinx/spine/unittests/impl/dao/SpineBean3DAO.java
+END

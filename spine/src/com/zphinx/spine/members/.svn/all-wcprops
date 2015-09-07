@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members
+END
+Application.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/Application.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/Group.java
+END
+PrincipalActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/PrincipalActions.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/Identity.java
+END
+Administrator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/Administrator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/package.html
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/User.java
+END
+Member.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/Member.java
+END
+Identifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/Identifier.java
+END
+AccountSecretsConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/AccountSecretsConfig.java
+END
+AccountSecrets.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/AccountSecrets.java
+END
+AccountDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/AccountDetails.java
+END
+MemberAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/MemberAccount.java
+END
+MemberActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/members/MemberActions.java
+END

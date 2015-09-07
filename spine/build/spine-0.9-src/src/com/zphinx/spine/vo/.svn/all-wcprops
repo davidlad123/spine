@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo
+END
+ProxyConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/ProxyConfig.java
+END
+MultiDelegateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/MultiDelegateBean.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/package.html
+END
+ResultObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/ResultObject.java
+END
+DataTransferAssembler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/DataTransferAssembler.java
+END
+LabelIntBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/LabelIntBean.java
+END
+DAOInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/DAOInput.java
+END
+DaoConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/DaoConstructor.java
+END
+AccountTypeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/AccountTypeBean.java
+END
+DelegateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/DelegateBean.java
+END
+ManagedDaoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/ManagedDaoBean.java
+END
+CommandComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/CommandComponent.java
+END

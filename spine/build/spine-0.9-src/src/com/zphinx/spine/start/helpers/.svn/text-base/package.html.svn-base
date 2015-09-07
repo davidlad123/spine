@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<!--
+
+
+
+  Copyright 2004 Zphinx Software Solutions,London UK  All Rights Reserved.
+
+  This software is the confidential and proprietary information of Zphinx Software Solutions.
+  ("Confidential Information").  You shall not
+  disclose such Confidential Information and shall use it only in
+  accordance with the terms of the license agreement you entered into
+  with Zphinx.
+
+  Copyright Version 1.5
+
+-->
+</head>
+<body bgcolor="white">
+
+Classes and helpers used to initialize and configure Spine application framework at startup. 
+
+
+<!-- Put @see and @since tags down here. -->
+
+</body>
+</html>

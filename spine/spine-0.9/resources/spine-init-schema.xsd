@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="config-start">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="logFile" />
+        <xs:element ref="configFile" />
+        <xs:element ref="roleConfigFile" />
+        <xs:element ref="watchTime" />
+        <xs:element ref="dataSources" />
+        <xs:element ref="plugins" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="configFile">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="dataSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dataSourceBuilder" />
+        <xs:element ref="sourceClass" />
+        <xs:element ref="property" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="default" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="key" type="xs:NMTOKEN" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="dataSourceBuilder">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="dataSources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dataSource" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="logFile">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="plugin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pluginName" />
+        <xs:element ref="property" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="key" type="xs:NMTOKEN" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="pluginName">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="plugins">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="plugin" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="property">
+    <xs:complexType>
+      <xs:attribute name="name" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="value" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="roleConfigFile">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="sourceClass">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="watchTime">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+</xs:schema>

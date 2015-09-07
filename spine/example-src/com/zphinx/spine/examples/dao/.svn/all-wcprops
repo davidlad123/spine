@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao
+END
+LogonDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/LogonDAO.java
+END
+ExampleDatabaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/ExampleDatabaseDAO.java
+END
+ExampleFileDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/ExampleFileDAO.java
+END
+InboxDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/InboxDAO.java
+END
+PendingJobsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/PendingJobsDAO.java
+END
+SpineBean1DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/SpineBean1DAO.java
+END
+SpineBean2DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/SpineBean2DAO.java
+END
+SpineBean3DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/dao/SpineBean3DAO.java
+END

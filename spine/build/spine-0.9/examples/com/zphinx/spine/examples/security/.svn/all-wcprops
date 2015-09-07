@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/examples/com/zphinx/spine/examples/security
+END
+SecurityExampleDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/examples/com/zphinx/spine/examples/security/SecurityExampleDelegate.java
+END
+SecurityExamplePrimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/examples/com/zphinx/spine/examples/security/SecurityExamplePrimer.java
+END
+ObjectSecurityExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/examples/com/zphinx/spine/examples/security/ObjectSecurityExample.java
+END
+SecurityMultiViewExampleProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/examples/com/zphinx/spine/examples/security/SecurityMultiViewExampleProcessor.java
+END
+RoleSecurityExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9/examples/com/zphinx/spine/examples/security/RoleSecurityExample.java
+END

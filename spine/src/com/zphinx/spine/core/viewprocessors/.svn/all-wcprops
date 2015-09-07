@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/viewprocessors
+END
+ViewProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/viewprocessors/ViewProcessor.java
+END
+ViewProcessorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/viewprocessors/ViewProcessorFactory.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/viewprocessors/package.html
+END
+DefaultViewProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/viewprocessors/DefaultViewProcessor.java
+END
+MultiViewProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/core/viewprocessors/MultiViewProcessor.java
+END

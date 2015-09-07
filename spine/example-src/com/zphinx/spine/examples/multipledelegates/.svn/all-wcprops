@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates
+END
+MultiDelegateExampleDelegate1.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/MultiDelegateExampleDelegate1.java
+END
+MultipleDelegatesExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/MultipleDelegatesExample.java
+END
+InboxDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/InboxDelegate.java
+END
+LogonDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/LogonDelegate.java
+END
+MultiDelegateExampleDelegate3.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/MultiDelegateExampleDelegate3.java
+END
+PendingJobsDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/PendingJobsDelegate.java
+END
+MultiDelegateExampleDelegate2.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19/spine/trunk/example-src/com/zphinx/spine/examples/multipledelegates/MultiDelegateExampleDelegate2.java
+END

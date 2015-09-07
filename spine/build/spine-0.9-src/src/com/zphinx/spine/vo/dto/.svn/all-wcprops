@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto
+END
+DataTransportBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/DataTransportBean.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/package.html
+END
+StringAttributeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/StringAttributeBean.java
+END
+UserListBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/UserListBean.java
+END
+DTOWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/DTOWrapper.java
+END
+DataTransferObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/DataTransferObject.java
+END
+SpineBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/vo/dto/SpineBean.java
+END

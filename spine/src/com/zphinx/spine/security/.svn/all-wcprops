@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/security
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/security/package.html
+END
+MemberPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/security/MemberPermission.java
+END
+PermissionLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/security/PermissionLevel.java
+END
+SpinePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19/spine/trunk/src/com/zphinx/spine/security/SpinePermission.java
+END

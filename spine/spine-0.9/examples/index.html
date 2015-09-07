@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	
+		<title> Spine Usage Examples</title>
+
+		<meta http-equiv="keywords"
+			content="enterprise application core,framework,J2EE,Java Application,Swing Application,Desktop Application,Software,API,Application Framework" />
+
+		<meta http-equiv="description"
+			content="An enterprise application core used by J2EE clients to create application logic which can easily be integrated into existing
+    MVC frameworks and serves as an inversion of control mechanism for creating interchangable application logic" />
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+
+		<style type="text/css">
+/* <![CDATA[ */ 
+@import "http://spine.zphinx.co.uk/scripts/readyset.css"; 
+@import "http://spine.zphinx.co.uk/scripts/inst.css";
+/*  ]]> */
+ </style>
+		<link rel="stylesheet" type="text/css" href="http://spine.zphinx.co.uk/scripts/print.css"
+			media="print" />
+		<link href="http://spine.zphinx.co.uk/scripts/template02.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="http://spine.zphinx.co.uk/scripts/spine-styles.css" />
+
+	</head>
+
+	<body>
+		<table width="100%" height="100%" border="0" id="Main">
+			<tr>
+				<td height="125">
+					<table width="100%" height="125" border="0" id="Header">
+						<tr>
+							<td width="200" bgcolor="#C5D5EE" align="center">
+								<img src="http://spine.zphinx.co.uk/images/spine-logo.jpg" align="middle"/>
+							</td>
+							<td bgcolor="#F2F2F2" valign="middle">
+								<h2 align="center">
+									 Spine Usage Examples
+								</h2>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="20">
+					<table width="100%" border="0" bgcolor="#97AEDD" class="MenuTop"
+						id="menuTop">
+						<tr>
+							<td width="200" bgcolor="#C5D5EE">
+								&gt;&gt;&gt;
+							</td>
+									<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/user_guide.html">Index</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/page1.html">Usage</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/page2.html">Advanced Usage</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/page3.html">References</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/quick_start.html">Quick Start</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/struts_integration.html">Struts Integration</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/javadoc/index.html">Javadocs</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/faq.html">Faq</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/w-agora/?site=spine">Forum</a>
+							</td>
+
+							<td bgcolor="C5D5EE">
+								&nbsp;
+							</td>
+
+
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td height="100%" valign="top">
+					<table width="100%" height="100%" border="0">
+						<tr>
+							<td width="200" valign="top" bgcolor="#C5D5EE">
+								<table width="100%" height="100%" border="0" cellpadding="5"
+									class="menuLeft" id="MenuColumn">
+									<tr>
+										<td height="20" class="whitefg">
+											------------------------------------------
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/index.html">Introduction</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/overview.html">Overview</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://sourceforge.net/project/showfiles.php?group_id=230475">Download</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/docs/user_guide.html">User Guide</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/docs/javadoc/index.html">Javadocs</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											---------------------
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/faq.html">Faq</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/w-agora/?site=spine">Forum</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/mantis/">Issue Tracking</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											---------------------
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/release_notes.html">Release Notes</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											&gt;&gt;&nbsp;
+											<a href="http://spine.zphinx.co.uk/license.html">Licensing</a>
+										</td>
+									</tr>
+									<tr>
+										<td height="20" class="whitefg">
+											--------------------------------------------
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<table width="100%" border="0" cellpadding="5"
+												class="contentStyle1" id="contentAdditional">
+												<tr>
+													<td>
+														&nbsp;
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="200" valign="bottom">
+								              <p>
+                 
+                <br />
+                </p> -->
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" align="center">
+
+<!-- start boxes -->
+								<table width="100%" border="0" id="ContentSeparator">
+															<tr>
+										<td valign="top">
+											<table width="100%" border="0" class="contentTable1"
+												id="ContentTable1">
+												<tr>
+													<td width="20" height="15" class="HeaderContentTable2">
+														<center>
+															&gt;
+														</center>
+													</td>
+													<td class="HeaderContentTable1" width="97%">
+														<a name="earrc">Application Request/Response Cycle Examples</a>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="2" valign="top">
+														<table width="100%" border="0" cellpadding="10"
+															class="contentStyle1" id="Content1">
+															<tr>
+																<td class="whitebg" align="left">
+																						<br/>
+					The application request/response cycle is demonstrated by the
+					examples shown.&nbsp; Before a call can be made, the configuration
+					must must be informed of the objects which will be used to service
+					the calls from a front controller. A typical application call
+					requires the following types of objects in the order shown:
+					<br/>
+					<br/>
+					<ol>
+						<li>
+
+							<a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/data/DataTransferObject.html"
+								class="medblue">DataTransferObject</a>
+						</li>
+						<li>
+							<a
+								href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/core/viewprocessors/ViewProcessor.html"
+								class="medblue">ViewProcessor</a>
+						</li>
+						<li>
+							<a
+								href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/core/AbstractBusinessDelegate.html"
+								class="medblue">BusinessDelegate</a>
+						</li>
+						<li>
+							<a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/data/DataProxy.html"
+								class="medblue">DataProxy</a>
+						</li>
+						<li>
+							<a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/data/DataTransferObject.html"
+								class="medblue">DataAccessObject</a>
+
+						</li>
+					</ol>
+					&nbsp;The <a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/data/DataProxy.html"
+								class="medblue">DataProxy</a> is intrinsically tied to the
+					<a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/data/DataTransferObject.html" class="medblue">DataAccessObject</a> and the data store with all
+					but the data store been defined in the configuration
+					file(<a href="http://spine.zphinx.co.uk/spine.xml" class="medblue">spine.xml</a>).
+					<br/>
+					<br/>
+					The examples below uses a call from&nbsp; a test class to the
+					framework.&nbsp; A&nbsp;
+					<a
+						href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/core/viewprocessors/ViewProcessor.html"
+						class="medblue">ViewProcessor</a> is obtained from a
+					<a
+						href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/core/viewprocessors/AbstractViewProcessorFactory.html"
+						class="medblue">ViewProcessorFactory</a> and passed an instance of
+					a
+					<a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/data/DataTransferObject.html"
+						class="medblue">DataTransferObject</a>. The request is processed
+					by the system and a
+					<a href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/vo/ResultObject.html"
+						class="medblue">ResultObject</a> obtained. Three examples are
+					implemented each depicting the various&nbsp; possible
+					configurations&nbsp; used by the&nbsp; Spine framework.The examples
+					are:
+					<br/>
+					<ol>
+						<li>
+							<a href="#euascwasb" class="medblue">Example using a simple
+								configuration with a single BusinessDelegate</a>
+						</li>
+						<li>
+							<a href="#euascwmb" class="medblue">Example using a simple
+								configuration with&nbsp; multiple BusinessDelegates</a>
+						</li>
+						<li>
+							<a href="#euamcwasbam" class="medblue">Example using a
+								MultiViewProcessor configuration with a single BusinessDelegate and
+								ManagedObjects</a>
+						</li>
+					</ol>
+					<br />
+				<h4>	<a name="euascwasb">Example using a simple configuration with a
+						single BusinessDelegate</a></h4>
+					<br/>
+					<br/>
+					This example uses the following objects:
+					<br/>
+					<ol>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/simpledelegate/SimpleDelegateExample.java"
+								class="medblue">SimpleDelegateExample<!--ConfigurationTest-->
+							</a>:- The example class for a simple delegate configuration
+							<br/>
+						</li>
+						<li>
+							<a
+								href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/core/viewprocessors/DefaultViewProcessor.html"
+								class="medblue">DefaultViewProcessor</a>:- The view processor
+							handling the invocation
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/simpledelegate/SimpleDelegate.java"
+								class="medblue">SimpleDelegate</a>:- The business delegate
+							containing the business methods
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/ExampleFileDAO.java"
+								class="medblue">ExampleFileDAO</a>:- The DAO which is used to
+							access a flat file datastore.
+						</li>
+					</ol>
+					This example shows how the request response circle instantiates and
+					uses the objects specified in the configuration named
+					<font color="#0080ff">TestProcessor</font>. You may view these
+					files above or by navigating to the	spine-distro/examples/ directory of
+					the distribution.
+					<br/>
+				<h4>	<a name="euascwmb">Example using a simple configuration
+						with&nbsp; multiple BusinessDelegates</a></h4>
+					<br />
+					This example uses the following objects:
+					<br/>
+					<br/>
+					<ol>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multipledelegates/MultipleDelegatesExample.java"
+								class="medblue">MultipleDelegatesExample
+							</a>:- The example class which demonstrates this spine configuration.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="http://spine.zphinx.co.uk/docs/javadoc/com/zphinx/spine/core/viewprocessors/DefaultViewProcessor.html"
+								class="medblue">DefaultViewProcessor</a>:- The view processor
+							handling the invocation.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multipledelegates/MultiDelegateExampleDelegate1.java"
+								class="medblue">MultiDelegateExampleDelegate1</a>:- A business
+							delegate containing some business methods.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multipledelegates/MultiDelegateExampleDelegate2.java"
+								class="medblue">MultiDelegateExampleDelegate2</a>:- Another
+							business delegate containing some business methods.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multipledelegates/MultiDelegateExampleDelegate3.java"
+								class="medblue">MultiDelegateExampleDelegate3</a>:- Another
+							business delegate containing some business methods.
+						</li>
+
+
+
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/ExampleFileDAO.java"
+								class="medblue">ExampleFileDAO</a>:- The DAO which is used to
+							access the file datastore.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/ExampleDatabaseDAO.java"
+								class="medblue">ExampleDatabaseDAO</a>:- The DAO which is used
+							to access the&nbsp; database datastore.
+						</li>
+					</ol>
+					This example shows how the request response circle instantiates and
+					uses the objects specified in the configuration named
+					MultipleDelegatesExample. You may view the
+					files used for this example above or by navigating to the
+					spine-distro/examples/ directory of
+					the distribution.
+					<br/>
+					<h4><a name="euamcwasbam">Example using a MultiViewProcessor
+						configuration with a single BusinessDelegate and ManagedObjects</a></h4>
+					<br/>
+					This example uses the following objects:
+					<br/>
+					<br/>
+					<ol>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multiview/MultiViewProcessorExample.java"
+								class="medblue">MultiViewProcessorExample<!-- MultiViewConfigurationTest -->
+							</a> :- The example class which uses a MultiViewProcessor
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multiview/ExtendedMultiViewProcessor.java"
+								class="medblue">ExtendedMultiViewProcessor</a>:- The view
+							processor handling the invocation
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multiview/MultiViewExampleDelegate.java"
+								class="medblue">MultiViewExampleDelegate</a>:- The business
+							delegate containing the business methods
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/SpineBean1DAO.java"
+								class="medblue">SpineBean1DAO</a>:- A DAO which is used to access
+							the file datastore.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/SpineBean2DAO.java"
+								class="medblue">SpineBean2DAO</a>:- A DAO which is used to access
+							the database datastore.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/SpineBean3DAO.java"
+								class="medblue">SpineBean3DAO</a>:- A DAO which is used to access
+							the database datastore.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/beans/SpineBean1.java"
+								class="medblue">SpineBean1</a>:- A SpineBean used by this
+							implementation.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/beans/SpineBean2.java"
+								class="medblue">SpineBean2</a>:- A SpineBean used by this
+							implementation.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/beans/SpineBean3.java"
+								class="medblue">SpineBean3</a>:- A SpineBean used by this
+							implementation.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multiview/ExampleBuilder.java"
+								class="medblue">ExampleBuilder</a>:-&nbsp; An AbstractBuilder
+							used by this example.
+							<br/>
+						</li>
+					</ol>
+					This example shows how the request response circle instantiates and
+					uses the objects specified in the configuration named
+					<font color="#0080ff">MultiViewProcessorExample</font>. You may
+					view these files above or by navigating to the
+					spine-distro/examples/ directory of
+					the distribution.
+					<br/>
+					&nbsp;
+					<br/>
+					<br/>
+
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+
+
+									</tr>
+									
+									<tr>
+										<td>
+											&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<table width="100%" border="0" class="contentTable1"
+												id="ContentTable1">
+												<tr>
+													<td width="20" height="15" class="HeaderContentTable2">
+														<center>
+															&gt;
+														</center>
+													</td>
+													<td class="HeaderContentTable1" width="97%">
+														<a name="esu">Example Security Usage</a>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="2" valign="top">
+														<table width="100%" border="0" cellpadding="10"
+															class="contentStyle1" id="Content1">
+															<tr>
+																<td class="whitebg"  align="left">
+																						<br/>
+					This example creates roles,principals and SpineBean objects for
+					which it demonstrates the access rights which each object
+					possesses.
+					<br/>
+					<br/>
+					This example uses the following objects:
+					<br/>
+					<br/>
+					<ol>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/security/SpineSecurityExample.java"
+								class="medblue">SpineSecurityExample</a> :- The example class
+							which is used to demonstrate spines security features.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multiview/SecurityMultiViewProcessor.java"
+								class="medblue">SecurityMultiViewExampleProcessor</a>:- The view
+							processor handling the invocation.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/security/SecurityExampleDelegate.java"
+								class="medblue">SecurityExampleDelegate</a>:- The business
+							delegate containing the business methods.
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/SpineBean1DAO.java"
+								class="medblue">SpineBean1DAO</a>:- A DAO which is used to access
+							the file datastore.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/SpineBean2DAO.java"
+								class="medblue">SpineBean2DAO</a>:- A DAO which is used to access
+							the database datastore.
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/dao/SpineBean3DAO.java"
+								class="medblue">SpineBean3DAO</a>:- A DAO which is used to access
+							the database datastore.
+						</li>
+
+						<li>
+							<a
+								href="com/zphinx/spine/examples/beans/SpineBean1.java"
+								class="medblue">SpineBean1</a>:- A SpineBean used by this
+							implementation
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/beans/SpineBean2.java"
+								class="medblue">SpineBean2</a>:- A SpineBean used by this
+							implementation
+							<br/>
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/beans/SpineBean3.java"
+								class="medblue">SpineBean3</a>:- A SpineBean used by this
+							implementation
+						</li>
+						<li>
+							<a
+								href="com/zphinx/spine/examples/multiview/ExampleBuilder.java"
+								class="medblue">ExampleBuilder</a>:-&nbsp; An AbstractBuilder
+							used by this example
+							<br/>
+						</li>
+					</ol>
+					This example shows how the request response circle instantiates and
+					uses the objects specified in the configuration named
+					<font color="#0080ff">SpineSecurityExample</font>. You may view
+					these files above or by navigating to the files within
+					spine-distro/examples/ directory of
+					the distribution.
+					<br/>
+					<br/>
+
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+
+
+									</tr>
+									
+								</table>
+<!-- stop boxes -->
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="20">
+					
+						<table width="100%" border="0" bgcolor="#97AEDD" class="MenuTop"
+							id="menuBottom">
+							<tr>
+								<td width="200" bgcolor="#C5D5EE">
+									&gt;&gt;&gt;
+								</td>
+										<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/user_guide.html">Index</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/page1.html">Usage</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/page2.html">Advanced Usage</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/page3.html">References</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/quick_start.html">Quick Start</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/struts_integration.html">Struts Integration</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/docs/javadoc/index.html">Javadocs</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/faq.html">Faq</a>
+							</td>
+							<td align="center">&nbsp;&nbsp;<font color="white">|</font>&nbsp;&nbsp;</td>
+							<td align="center">
+								<a href="http://spine.zphinx.co.uk/w-agora/?site=spine">Forum</a>
+							</td>
+
+								<td bgcolor="C5D5EE">
+									&nbsp;
+								</td>
+							</tr>
+						</table>
+					
+
+				</td>
+			</tr>
+			<tr>
+				<td height="15" class="copyrightText">
+					<a href="http://www.zphinx.com">Copyright &copy; 2008 Zphinx
+						Software Solutions , all rights reserved</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

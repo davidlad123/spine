@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/19/spine/trunk/lib/hibernate
+END
+jaxen-1.1-beta-4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/jaxen-1.1-beta-4.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/jdbc2_0-stdext.jar
+END
+dom4j-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/dom4j-1.6.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/commons-logging-1.0.4.jar
+END
+ehcache-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/ehcache-1.1.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/jta.jar
+END
+cglib-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/cglib-2.1.jar
+END
+jaas.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/jaas.jar
+END
+commons-collections-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/commons-collections-2.1.1.jar
+END
+log4j-1.2.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/log4j-1.2.9.jar
+END
+xerces-2.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/xerces-2.6.2.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/xml-apis.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/asm-attrs.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/19/spine/trunk/lib/hibernate/hibernate3.jar
+END

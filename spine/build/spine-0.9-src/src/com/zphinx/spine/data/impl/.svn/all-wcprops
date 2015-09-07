@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl
+END
+EjbAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/EjbAbstract.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/package.html
+END
+HibernateProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/HibernateProxy.java
+END
+AbstractLdapDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/AbstractLdapDAO.java
+END
+DataBaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/DataBaseHelper.java
+END
+LdapProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/LdapProxy.java
+END
+HibernateSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/HibernateSessionFactory.java
+END
+AbstractDataBaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/AbstractDataBaseDAO.java
+END
+AbstractFileDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/AbstractFileDAO.java
+END
+DataBaseProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/DataBaseProxy.java
+END
+AbstractHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/AbstractHibernateDAO.java
+END
+FileProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/FileProxy.java
+END
+EJBProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/impl/EJBProxy.java
+END

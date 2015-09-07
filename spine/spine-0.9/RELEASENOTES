@@ -1,0 +1,43 @@
+
+Spine Java Application Framework
+
+This document contains the release notes for Spine version 0.9.1 The following sections describe the release in detail and provide late-breaking or other information that supplements the main documentation.
+
+This is an early access release for wide evaluation and usage. Your feedback is important to us, please help us make this the best product possible. Keep in mind that we are continuing to work on Spine and things may change in the future.
+
+(WHEN 0 IN VERSION NUMBER CHANGES) This is a major release with many new features. Users of previous releases should check the "Version Compatibility" section below for instructions on how to use existing data with this new release.
+
+(WHEN 9 IN VERSION NUMBER CHANGES) This is an upgrade release with some significant enhancements. Users of previous releases are encouraged to upgrade.
+
+(WHEN 1 IN VERSION NUMBER CHANGES) This is a maintenance release that improves quality, reliability, and performance without adding significant new functionality. All users of previous 0.9 releases should upgrade to this release.
+
+(WHEN DEFECT CORRECTION CLOSES SIGNIFICANT SECURITY HOLES) This is a critical upgrade release that addresses recently discovered security holes. All users of previous 0.9 releases should upgrade immediately to this release.
+
+Installation and Upgrade Notes
+
+Installation
+    
+ See the <a href="">user guide</a> for full installation and configuration details.
+Manifest
+    This release consists of the following items:
+
+        * Release notes (this file)
+        * /lib/ The libraries used by spine
+        * /resources/ The files used to drive the framework mostly xml files and associated schemas and dtds
+
+Minimum System Requirements
+System Processor:	1GHz PROCESSOR-TYPE
+System Memory:	500MB
+Free Disk Space:	10MB
+Operating System: 	Unix,Linux,Windows 2000, Windows XP, Mac OS X, All operating systems capable of running J2SE 5
+Networking:	Internet access
+Existing Software: 	
+
+    * J2SE 5 Libraries
+    * J2EE 1.4 Libraries (Optional)
+    * Log4J libraries (packaged with distribution)
+    * Junit libraries (packaged with distribution)
+    * Apache Commons Library (packaged with distribution)
+    * Hibernate 3 integration libraries (packaged with distribution)
+
+

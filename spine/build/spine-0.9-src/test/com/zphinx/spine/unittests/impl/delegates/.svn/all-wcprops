@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/impl/delegates
+END
+SimpleProcessorTestDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/impl/delegates/SimpleProcessorTestDelegate.java
+END
+MultiDelegateTestDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/impl/delegates/MultiDelegateTestDelegate.java
+END
+MultiViewTestDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/test/com/zphinx/spine/unittests/impl/delegates/MultiViewTestDelegate.java
+END

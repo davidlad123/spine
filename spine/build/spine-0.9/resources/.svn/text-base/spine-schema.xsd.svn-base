@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="builder">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="className">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="dataAccessObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="className" />
+        <xs:element ref="proxyIndex" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="dataProxies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dataProxy" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="dataProxy">
+    <xs:complexType>
+      <xs:attribute name="name" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="index" type="xs:NMTOKEN" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="delegate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="subclass" />
+        <xs:element ref="dataAccessObject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="managedObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="objectClass" />
+        <xs:element ref="dataAccessObject" />
+        <xs:element ref="pageIndex" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="multiDelegate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="subclass" />
+        <xs:element ref="managedObject" maxOccurs="unbounded" />
+        <xs:element ref="builder" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="objectClass">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="pageIndex">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="processor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="processorClass" />
+        <xs:element ref="delegate" maxOccurs="unbounded" />
+        <xs:element ref="multiDelegate" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:NMTOKEN" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="processorClass">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="proxyIndex">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="spine">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dataProxies" />
+        <xs:element ref="processor" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="subclass">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+</xs:schema>

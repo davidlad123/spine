@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data
+END
+DataAccessObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/DataAccessObject.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/package.html
+END
+DataAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/DataAbstract.java
+END
+DataProxyFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/DataProxyFactory.java
+END
+DataPack.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/DataPack.java
+END
+AbstractDataProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/src/com/zphinx/spine/data/AbstractDataProxy.java
+END

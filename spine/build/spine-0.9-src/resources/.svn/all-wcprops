@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources
+END
+spine-dtd.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/spine-dtd.dtd
+END
+spine-init.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/spine-init.xml
+END
+spine-schema.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/spine-schema.xsd
+END
+spine-init-dtd.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/spine-init-dtd.dtd
+END
+log4j.props
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/log4j.props
+END
+spine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/spine.xml
+END
+groups.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/groups.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/web.xml
+END
+spine-init-schema.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19/spine/trunk/build/spine-0.9-src/resources/spine-init-schema.xsd
+END

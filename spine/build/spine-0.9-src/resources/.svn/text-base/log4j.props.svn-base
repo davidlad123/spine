@@ -1,0 +1,36 @@
+
+
+log4j.appender.spine                          = org.apache.log4j.DailyRollingFileAppender
+
+log4j.appender.spine.Append = true
+
+#log4j.appender.spine.File = /home/opt/jakarta-tomcat-5.5.9/webapps/spine/logs/lgmr.log
+log4j.appender.spine.File = /home/opt/jakarta-tomcat-5.5.9/webapps/spine/logs/lgmr.log
+
+log4j.appender.spine.layout                   = org.apache.log4j.PatternLayout
+
+log4j.appender.spine.layout.ConversionPattern = %d{MM/dd/yy-HH:mm} %-5p %-30.30c{1} >>%m %n
+
+log4j.appender.rollingfile                          = org.apache.log4j.RollingFileAppender
+
+log4j.appender.rollingfile.Append = true
+
+
+log4j.appender.rollingfile.File = /home/opt/jakarta-tomcat-5.5.9/webapps/spine/logs/rollingfile.log
+
+log4j.appender.rollingfile.MaxBackupIndex = 2
+
+log4j.appender.rollingfile.MaxFileSize = 100KB
+
+log4j.appender.rollingfile.layout                   = org.apache.log4j.PatternLayout
+
+log4j.appender.rollingfile.layout.ConversionPattern = %d{MM/dd/yy-HH:mm} %-5p %-30.30c{2} >>%m %n
+
+log4j.appender.writescreen                          = org.apache.log4j.ConsoleAppender
+log4j.appender.writescreen.layout = org.apache.log4j.PatternLayout
+log4j.appender.writescreen.layout.ConversionPattern = %d{MM/dd/yy-HH:mm} %-5p %-30.30c{2} >>%m %n
+
+
+log4j.rootCategory = spine, rollingfile,writescreen
+
+
